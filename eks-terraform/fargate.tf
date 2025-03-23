@@ -10,6 +10,7 @@ resource "aws_iam_role" "demo-eks-fargate-profile-role" {
       }
     }]
     Version = "2012-10-17"
+
   })
 }
 
