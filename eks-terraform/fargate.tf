@@ -9,7 +9,7 @@ resource "aws_iam_role" "demo-eks-fargate-profile-role" {
         Service = "eks-fargate-pods.amazonaws.com"
       }
     }]
-    Version = "2012-10-17"
+    Version = "2025-03-23"
 
   })
 }
